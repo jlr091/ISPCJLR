@@ -1,0 +1,38 @@
+.aParent  {
+    float: left;
+    clear: none; 
+	width: 100%;
+	border-color: red;
+	border-color: coral;
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+.imagenDS3  {
+	background: coral;
+	text-align: center;
+	float: left; 
+	width: 50%;
+}
+
+.Text  {
+	font-size:30px;
+    float: left;
+    clear: none;
+	border-color: red;
+	float: left; 
+	width: 50%;
+	color: #7f2fe0;
+	text-align: center;
+	position: absolute;
+    top: 25%;
+    left: 50%;
+	
+}
+
+img {
+	border-color: coral;
+	border-bottom-color: coral;
+	
+}

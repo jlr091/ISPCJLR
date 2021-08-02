@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  color: #7f2fe0;
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(47,172,224,1) 63%, rgba(0,212,255,1) 100%);
+text-align: center;
+
+}
+h1 {
+	text-align: center;
+	
+}
+li {
+display:inline;
+ padding-left:6px;
+ padding-right:6px;
+ font-size:30px;
+ font-family:Arial;
+font-weight:bold;
+	
+}
+
+.separador {
+    color:gray;
+}
+
+.imagenBody {	
+	width=100%;
+	high=100%;
+}
+
