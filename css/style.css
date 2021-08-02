@@ -31,3 +31,12 @@ font-weight:bold;
 	high=100%;
 }
 
+.tabls {
+	position: relative;
+    left: 35%;
+}
+ tr, td, th{
+	text-align: center;
+  border: 1px solid black;
+  text-align: center;
+}
