@@ -1,42 +1,135 @@
+
+
+img {
+	border-color: coral;
+	border-bottom-color: coral;
+}
+
 ul {
-  list-style-type: none;
-  color: #7f2fe0;
-  margin: 0;
-  padding: 0;
-  background: rgb(2,0,36);
+	list-style-type: none;
+	color: #7f2fe0;
+	margin: 0;
+	padding: 0;
+	background: rgb(2,0,36);
 	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(47,172,224,1) 63%, rgba(0,212,255,1) 100%);
-text-align: center;
-
-}
-h1 {
 	text-align: center;
-	
 }
-li {
-display:inline;
- padding-left:6px;
- padding-right:6px;
- font-size:30px;
- font-family:Arial;
-font-weight:bold;
+
+h1, h2 {
+	text-align: center;	
+	color: rgba(255,255,255,.3);
+	background: #1a1a1a;
+	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+h4 {
+	text-align: center;	
+	color: rgba(255,255,255,.3);
+	background: #1a1a1a;
+	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+h4:hover {
+	text-align: center;	
+	color: rgba(150,255,75,.3);
+	background: #1a1a1a;
+	text-shadow: 0 0 15px rgba(150,255,75,.5), 0 0 10px rgba(150,255,75,.5);
+}
+
+.bodyPrincial{
+	background: #1a1a1a;
+}
+
+.bodyProductos {
+	 background: #1a1a1a;
+}
+
+ tr, td, th{
+	text-align: center;
+	border: 1px solid black;
+	text-align: center;
+	background: white;
+}
+
+.PanelPrincipal  {
+    float: left;
+    clear: none; 	
+	width: 100%;
+	border-color: coral;
+	border-width: 1px;
+	border-style: solid;
 	
 }
 
+.imagenDS3  {
+	/*background: coral;
+	float: left; 
+	width: 50%;*/
+	text-align: center;
+}
+
+.Text  {
+	/*font-size:30px;
+    float: left;
+    clear: none;
+	border-color: red;
+	float: left; 
+	width: 50%;
+	color: #7f2fe0;
+	text-align: center;
+	position: absolute;
+    top: 25%;
+    left: 50%;*/
+	    font-size: 30px;
+    /* float: left; */
+    clear: none;
+    border-color: red;
+    /* float: left; */
+    /* width: 50%; */
+    color: #7f2fe0;
+    text-align: center;
+    /* position: absolute; */
+    top: 25%;
+    left: 50%;
+}
+.NavBar {
+	text-align: center;	
+}
+
+.LiNavBar {
+	display:inline;
+	padding-left:6px;
+	padding-right:6px;
+	font-size:30px;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+.LiNavBar:hover {
+	background: #16EBEE;
+}
 .separador {
     color:gray;
 }
 
 .imagenBody {	
-	width=100%;
-	high=100%;
+	width: 100%;
+	height: 80%;
 }
 
-.tabls {
+.listArticulos {
 	position: relative;
-    left: 35%;
+    /*left: 35%;*/
 }
- tr, td, th{
-	text-align: center;
-  border: 1px solid black;
-  text-align: center;
+.list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.listSiguiente {
+	text-align: center;	
 }
